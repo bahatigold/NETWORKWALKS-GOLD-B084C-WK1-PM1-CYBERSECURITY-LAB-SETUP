@@ -13,7 +13,7 @@ An isolated VirtualBox lab with Kali Linux for ethical hacking practice.
 | Item | Detail |
 |------|--------|
 | Host | Windows 11, 16 GB RAM, NVMe SSD, AMD CPU |
-| VirtualBox | (add version) |
+| VirtualBox | 7.2.12 |
 | Kali Linux | 2023.4 (pre-built VirtualBox image) |
 | Network | NAT Network `NatNetwork`, `10.0.0.0/24`, DHCP on |
 | Kali IP | `10.0.0.2/24` (static), gateway `10.0.0.1`, DNS `8.8.8.8` |
