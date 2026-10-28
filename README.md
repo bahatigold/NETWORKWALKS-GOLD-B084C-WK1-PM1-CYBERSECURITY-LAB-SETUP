@@ -23,19 +23,19 @@ An isolated VirtualBox lab with Kali Linux for ethical hacking practice.
 ## 🛠️ Steps
 
 1. **Installed 7-Zip and VirtualBox** (default options).
-   📸 `screenshots/01-virtualbox-installed.png`
+   ![01-virtualbox-installed.png](screenshots/01-virtualbox-installed.png)
 2. **Created the NAT Network:** `File → Tools → Network → NAT Networks`, name `NatNetwork`, prefix `10.0.0.0/24`, DHCP enabled.
-   📸 `screenshots/02-natnetwork.png`
+   ![02-natnetwork.png](screenshots/02-natnetwork.png)
 3. **Imported Kali Linux** from kali.org/get-kali and extracted it with 7-Zip.
-   📸 `screenshots/03-kali-imported.png`
+   ![03-kali-imported.png](screenshots/03-kali-imported.png)
 4. **Configured the VM:** Adapter 1 on `NAT Network`, Shared Clipboard and Drag'n'Drop set to `Bidirectional`, host `Downloads` folder shared (Auto-mount, Full access).
-   📸 `screenshots/04-vm-settings.png`
+   ![04-vm-settings.png](screenshots/04-vm-settings.png)
 5. **Set the static IP** in Edit Connections → IPv4 → Manual: `10.0.0.2`, netmask `24`, gateway `10.0.0.1`, DNS `8.8.8.8`.
-   📸 `screenshots/05-kali-ip.png`
+   ![05-kali-ip.png](screenshots/05-kali-ip.png)
 6. **Tested:** `ip a`, `ping 10.0.0.1`, `ping 8.8.8.8`, `ping google.com`.
-   📸 `screenshots/06-ping-tests.png`
+   ![06-ping-tests.png](screenshots/06-ping-tests.png)
 7. **Took a snapshot:** `My Fresh Kali Linux`.
-   📸 `screenshots/07-snapshot.png`
+   ![07-snapshot.png](screenshots/07-snapshot.png)
 
 ---
 
